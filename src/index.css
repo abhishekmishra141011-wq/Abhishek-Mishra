@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@300;400;500;600;700&family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "DM Serif Display", Georgia, serif;
+  --font-sans: "Jost", "Inter", sans-serif;
+  
+  --color-primary-gold: #CDA274;
+  --color-primary-dark: #292F36;
+  --color-primary-light: #F4F0EC;
+  --color-primary-accent: #AE8254;
+}
+
+/* Custom scrollbars and styling details */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #CDA274-50;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #CDA274;
+}
+
+body {
+  font-family: var(--font-sans);
+  color: var(--color-primary-dark);
+  background-color: #ffffff;
+  overflow-x: hidden;
+}
+

@@ -1,0 +1,6 @@
+{
+  "name": "Interno Interior Design",
+  "description": "An elegant, interactive interior design website featuring a pixel-perfect navigation header, responsive pages, background structural grid lines, and a live header React/Tailwind code exporter.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
